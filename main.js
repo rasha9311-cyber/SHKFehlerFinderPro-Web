@@ -42,4 +42,30 @@ importButton.addEventListener("click",()=>{const manufacturer=document.querySele
 const transferStatus=document.querySelector("#transferStatus");
 document.querySelector("#exportFaults").addEventListener("click",()=>{if(!imported.length){transferStatus.textContent="Keine eigenen Einträge zum Export vorhanden.";return}const blob=new Blob([JSON.stringify({format:"shk-faults-v1",entries:imported},null,2)],{type:"application/json"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download="SHK-Fehlercodes-Export.json";document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);transferStatus.textContent=imported.length+" Einträge als JSON exportiert."});
 document.querySelector("#importFaultFile").addEventListener("change",async e=>{const file=e.target.files?.[0];if(!file)return;try{if(file.size>2_000_000)throw Error("Datei ist zu groß");const data=JSON.parse(await file.text());if(data.format!=="shk-faults-v1"||!Array.isArray(data.entries)||data.entries.length>2000)throw Error("Ungültiges Austauschformat");const valid=data.entries.filter(x=>x&&typeof x.manufacturer==="string"&&x.manufacturer.length<=100&&typeof x.model==="string"&&x.model.length<=150&&typeof x.code==="string"&&x.code.length<=30&&typeof x.description==="string"&&x.description.length<=1500);if(valid.length!==data.entries.length)throw Error("Einträge enthalten ungültige Felder");const seen=new Set(imported.map(x=>[x.manufacturer,x.model,x.code].join("|")));let added=0;for(const x of valid){const key=[x.manufacturer,x.model,x.code].join("|");if(!seen.has(key)){imported.push({manufacturer:x.manufacturer,model:x.model,code:x.code,description:x.description,imported:true});seen.add(key);added++}}localStorage.setItem("shkImportedFaults",JSON.stringify(imported));for(const name of [...new Set(imported.map(x=>x.manufacturer))]){if(![...maker.options].some(o=>o.value===name)){const option=document.createElement("option");option.value=name;option.textContent=name;maker.add(option)}}updateMakers();render();renderHome();transferStatus.textContent=added+" neue Einträge importiert. Bitte Herstellerunterlagen prüfen."}catch(err){transferStatus.textContent="Import fehlgeschlagen: "+err.message}finally{e.target.value=""}});
-if("serviceWorker"in navigator)navigator.serviceWorker.register("./sw.js").catch(()=>{});load();
+function showUpdateNotice(worker){
+  if(document.querySelector("#appUpdateNotice"))return;
+  const notice=document.createElement("div");notice.id="appUpdateNotice";
+  notice.className="update-notice";notice.setAttribute("role","status");
+  const text=document.createElement("span");text.textContent="Neue Web-App-Version verfügbar";
+  const button=document.createElement("button");button.type="button";button.textContent="Jetzt aktualisieren";
+  button.onclick=()=>{button.disabled=true;if(worker)worker.postMessage({type:"SKIP_WAITING"});else location.reload()};
+  notice.append(text,button);document.body.append(notice);
+}
+if("serviceWorker" in navigator){
+  let refreshing=false;
+  navigator.serviceWorker.addEventListener("controllerchange",()=>{
+    if(!refreshing){refreshing=true;location.reload()}
+  });
+  navigator.serviceWorker.register("./sw.js").then(reg=>{
+    if(reg.waiting&&navigator.serviceWorker.controller)showUpdateNotice(reg.waiting);
+    reg.addEventListener("updatefound",()=>{
+      const worker=reg.installing;if(!worker)return;
+      worker.addEventListener("statechange",()=>{
+        if(worker.state==="installed"&&navigator.serviceWorker.controller)showUpdateNotice(worker);
+      });
+    });
+    document.addEventListener("visibilitychange",()=>{if(!document.hidden)reg.update().catch(()=>{})});
+    setInterval(()=>reg.update().catch(()=>{}),5*60*1000);
+  }).catch(()=>{});
+}
+load();
