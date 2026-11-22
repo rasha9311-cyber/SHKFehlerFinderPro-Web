@@ -1,5 +1,5 @@
-const CACHE="shk-web-shell-v060";
-const SHELL=["./","./index.html","./main.js","./manifest.webmanifest","./faults.json"];
+const CACHE="shk-web-shell-v061";
+const SHELL=["./","./index.html","./main.js","./style.css","./manifest.webmanifest","./faults.json"];
 self.addEventListener("install",event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting())));
 self.addEventListener("activate",event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
 self.addEventListener("fetch",event=>{
