@@ -1,0 +1,906 @@
+[
+  {
+    "id": "va_f00",
+    "manufacturer": "Vaillant",
+    "code": "F.00",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Vorlauf-NTC ohne Signal",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=41"
+  },
+  {
+    "id": "va_f01",
+    "manufacturer": "Vaillant",
+    "code": "F.01",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Rücklauf-NTC ohne Signal",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=41"
+  },
+  {
+    "id": "va_f10",
+    "manufacturer": "Vaillant",
+    "code": "F.10",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Vorlauf-NTC kurzgeschlossen",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=41"
+  },
+  {
+    "id": "va_f11",
+    "manufacturer": "Vaillant",
+    "code": "F.11",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Rücklauf-NTC kurzgeschlossen",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=41"
+  },
+  {
+    "id": "va_f20",
+    "manufacturer": "Vaillant",
+    "code": "F.20",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Temperaturschutz ausgelöst",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=41"
+  },
+  {
+    "id": "va_f22",
+    "manufacturer": "Vaillant",
+    "code": "F.22",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Wasser fehlt",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=41"
+  },
+  {
+    "id": "va_f23",
+    "manufacturer": "Vaillant",
+    "code": "F.23",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Überhöhte Spreizung",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=41"
+  },
+  {
+    "id": "va_f24",
+    "manufacturer": "Vaillant",
+    "code": "F.24",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Zu rasche Erwärmung",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=41"
+  },
+  {
+    "id": "va_f25",
+    "manufacturer": "Vaillant",
+    "code": "F.25",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Abgas-Übertemperaturschutz",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=41"
+  },
+  {
+    "id": "va_f27",
+    "manufacturer": "Vaillant",
+    "code": "F.27",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Flammensignal ohne Sollflamme",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=41"
+  },
+  {
+    "id": "va_f28",
+    "manufacturer": "Vaillant",
+    "code": "F.28",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Start ohne erfolgreiche Zündung",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=41"
+  },
+  {
+    "id": "va_f29",
+    "manufacturer": "Vaillant",
+    "code": "F.29",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Wiederzündung fehlgeschlagen",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=42"
+  },
+  {
+    "id": "va_f32",
+    "manufacturer": "Vaillant",
+    "code": "F.32",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Gebläsefehler",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=42"
+  },
+  {
+    "id": "va_f75",
+    "manufacturer": "Vaillant",
+    "code": "F.75",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Druckanstieg bei Pumpenstart fehlt",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=42"
+  },
+  {
+    "id": "va_f34",
+    "manufacturer": "Vaillant",
+    "code": "F.34",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Drucküberwachung ausgelöst",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=42"
+  },
+  {
+    "id": "va_f35",
+    "manufacturer": "Vaillant",
+    "code": "F.35",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Luft-/Abgasweg blockiert",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=42"
+  },
+  {
+    "id": "va_f49",
+    "manufacturer": "Vaillant",
+    "code": "F.49",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Busstörung",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=42"
+  },
+  {
+    "id": "va_f61",
+    "manufacturer": "Vaillant",
+    "code": "F.61",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Gasventil-Ansteuerung gestört",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=42"
+  },
+  {
+    "id": "va_f62",
+    "manufacturer": "Vaillant",
+    "code": "F.62",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Gasventil schaltet verzögert ab",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=42"
+  },
+  {
+    "id": "va_f63",
+    "manufacturer": "Vaillant",
+    "code": "F.63",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Speicherfehler der Elektronik",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=42"
+  },
+  {
+    "id": "va_f64",
+    "manufacturer": "Vaillant",
+    "code": "F.64",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Sensor- oder Elektronikfehler",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=42"
+  },
+  {
+    "id": "va_f65",
+    "manufacturer": "Vaillant",
+    "code": "F.65",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Elektronik überhitzt",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=42"
+  },
+  {
+    "id": "va_f67",
+    "manufacturer": "Vaillant",
+    "code": "F.67",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Flammensignal unplausibel",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=42"
+  },
+  {
+    "id": "va_f68",
+    "manufacturer": "Vaillant",
+    "code": "F.68",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Flamme instabil",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=42"
+  },
+  {
+    "id": "va_f70",
+    "manufacturer": "Vaillant",
+    "code": "F.70",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Gerätekennung unpassend",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=42"
+  },
+  {
+    "id": "va_f73",
+    "manufacturer": "Vaillant",
+    "code": "F.73",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Drucksignal zu niedrig",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=42"
+  },
+  {
+    "id": "va_f74",
+    "manufacturer": "Vaillant",
+    "code": "F.74",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Drucksignal zu hoch",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=42"
+  },
+  {
+    "id": "va_f76",
+    "manufacturer": "Vaillant",
+    "code": "F.76",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Wärmetauscher-Überhitzungsschutz aktiv",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=42"
+  },
+  {
+    "id": "va_f77",
+    "manufacturer": "Vaillant",
+    "code": "F.77",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Abgasklappe oder Kondensatpumpe gestört",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=42"
+  },
+  {
+    "id": "va_f83",
+    "manufacturer": "Vaillant",
+    "code": "F.83",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Temperaturänderung fehlt",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=42"
+  },
+  {
+    "id": "va_f84",
+    "manufacturer": "Vaillant",
+    "code": "F.84",
+    "model": "ecoTEC plus VC DE 806/1006/1206/5-5 (Anleitung 0020107252_12)",
+    "description": "Temperaturdifferenz unplausibel",
+    "referenceUrl": "https://kontakt.vaillant.de/documents/download/336095#page=42"
+  },
+  {
+    "id": "wolf_cgb2_01",
+    "manufacturer": "WOLF",
+    "code": "01",
+    "model": "CGB-2(K) bis 24 kW (3063421_202311)",
+    "description": "Brennkammerdeckel-Temperaturbegrenzer ausgelöst",
+    "referenceUrl": "https://static1.wolfeu.website.svc.wolf.eu/public/assets/editors/de-de/professionals/wissensmanagement/campus/seminarunterlagen/05-cgb-2-bis-24kw/betriebsanleitung-cgb-2-bis-24kw_3063421_202311_web.pdf"
+  },
+  {
+    "id": "wolf_cgb2_02",
+    "manufacturer": "WOLF",
+    "code": "02",
+    "model": "CGB-2(K) bis 24 kW (3063421_202311)",
+    "description": "Brennkammer-Temperaturbegrenzung ausgelöst",
+    "referenceUrl": "https://static1.wolfeu.website.svc.wolf.eu/public/assets/editors/de-de/professionals/wissensmanagement/campus/seminarunterlagen/05-cgb-2-bis-24kw/betriebsanleitung-cgb-2-bis-24kw_3063421_202311_web.pdf"
+  },
+  {
+    "id": "wolf_cgb2_06",
+    "manufacturer": "WOLF",
+    "code": "06",
+    "model": "CGB-2(K) bis 24 kW (3063421_202311)",
+    "description": "Brennkammer-Temperaturwächter aktiv",
+    "referenceUrl": "https://static1.wolfeu.website.svc.wolf.eu/public/assets/editors/de-de/professionals/wissensmanagement/campus/seminarunterlagen/05-cgb-2-bis-24kw/betriebsanleitung-cgb-2-bis-24kw_3063421_202311_web.pdf"
+  },
+  {
+    "id": "wolf_cgb2_07",
+    "manufacturer": "WOLF",
+    "code": "07",
+    "model": "CGB-2(K) bis 24 kW (3063421_202311)",
+    "description": "Abgastemperaturgrenze überschritten",
+    "referenceUrl": "https://static1.wolfeu.website.svc.wolf.eu/public/assets/editors/de-de/professionals/wissensmanagement/campus/seminarunterlagen/05-cgb-2-bis-24kw/betriebsanleitung-cgb-2-bis-24kw_3063421_202311_web.pdf"
+  },
+  {
+    "id": "wolf_cgb2_08",
+    "manufacturer": "WOLF",
+    "code": "08",
+    "model": "CGB-2(K) bis 24 kW (3063421_202311)",
+    "description": "Abgasklappen-Rückmeldung gestört",
+    "referenceUrl": "https://static1.wolfeu.website.svc.wolf.eu/public/assets/editors/de-de/professionals/wissensmanagement/campus/seminarunterlagen/05-cgb-2-bis-24kw/betriebsanleitung-cgb-2-bis-24kw_3063421_202311_web.pdf"
+  },
+  {
+    "id": "wolf_cgb2_10",
+    "manufacturer": "WOLF",
+    "code": "10",
+    "model": "CGB-2(K) bis 24 kW (3063421_202311)",
+    "description": "Brennkammerfühler elektrisch gestört",
+    "referenceUrl": "https://static1.wolfeu.website.svc.wolf.eu/public/assets/editors/de-de/professionals/wissensmanagement/campus/seminarunterlagen/05-cgb-2-bis-24kw/betriebsanleitung-cgb-2-bis-24kw_3063421_202311_web.pdf"
+  },
+  {
+    "id": "wolf_cgb2_11",
+    "manufacturer": "WOLF",
+    "code": "11",
+    "model": "CGB-2(K) bis 24 kW (3063421_202311)",
+    "description": "Flammensignal bei Brennerstillstand",
+    "referenceUrl": "https://static1.wolfeu.website.svc.wolf.eu/public/assets/editors/de-de/professionals/wissensmanagement/campus/seminarunterlagen/05-cgb-2-bis-24kw/betriebsanleitung-cgb-2-bis-24kw_3063421_202311_web.pdf"
+  },
+  {
+    "id": "vie_vitotronic_10",
+    "manufacturer": "Viessmann",
+    "code": "10",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Außenfühler: Kurzschluss",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_18",
+    "manufacturer": "Viessmann",
+    "code": "18",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Außenfühler: Leitungsunterbrechung",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_19",
+    "manufacturer": "Viessmann",
+    "code": "19",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Außenfühler: Funkkommunikation fehlt",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_20",
+    "manufacturer": "Viessmann",
+    "code": "20",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Anlagenvorlauffühler: Kurzschluss",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_28",
+    "manufacturer": "Viessmann",
+    "code": "28",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Anlagenvorlauffühler: Unterbrechung",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_30",
+    "manufacturer": "Viessmann",
+    "code": "30",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Kesselfühler: Kurzschluss",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_38",
+    "manufacturer": "Viessmann",
+    "code": "38",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Kesselfühler: Unterbrechung",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_40",
+    "manufacturer": "Viessmann",
+    "code": "40",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Mischerkreis 2: Fühlerkurzschluss",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_44",
+    "manufacturer": "Viessmann",
+    "code": "44",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Mischerkreis 3: Fühlerkurzschluss",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_50",
+    "manufacturer": "Viessmann",
+    "code": "50",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Speicherfühler: Kurzschluss",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_58",
+    "manufacturer": "Viessmann",
+    "code": "58",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Warmwasserbereitung ausgefallen",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_1a",
+    "manufacturer": "Viessmann",
+    "code": "1A",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Linker Durchflusssensor gestört",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_1b",
+    "manufacturer": "Viessmann",
+    "code": "1b",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Rechter Durchflusssensor gestört",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_1f",
+    "manufacturer": "Viessmann",
+    "code": "1F",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Durchflussdifferenz über Grenzwert",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_4c",
+    "manufacturer": "Viessmann",
+    "code": "4C",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Mischerkreis 3: Fühlerunterbrechung",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_a3",
+    "manufacturer": "Viessmann",
+    "code": "A3",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Abgasfühler falsch positioniert",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_a4",
+    "manufacturer": "Viessmann",
+    "code": "A4",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Anlagendruck zu hoch",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_a7",
+    "manufacturer": "Viessmann",
+    "code": "A7",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Bedienmodul gestört",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_b0",
+    "manufacturer": "Viessmann",
+    "code": "b0",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Abgasfühler: Kurzschluss",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_b1",
+    "manufacturer": "Viessmann",
+    "code": "b1",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Bedienmodul: Kommunikationsstörung",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_b7",
+    "manufacturer": "Viessmann",
+    "code": "b7",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Kesselcodierung gestört",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_b8",
+    "manufacturer": "Viessmann",
+    "code": "b8",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Abgasfühler: Unterbrechung",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_c1",
+    "manufacturer": "Viessmann",
+    "code": "C1",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "EA1-Kommunikation gestört",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_c2",
+    "manufacturer": "Viessmann",
+    "code": "C2",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Solarregelung: Kommunikationsstörung",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_c3",
+    "manufacturer": "Viessmann",
+    "code": "C3",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "AM1-Kommunikation gestört",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_c4",
+    "manufacturer": "Viessmann",
+    "code": "C4",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "OpenTherm-Kommunikation gestört",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_c5",
+    "manufacturer": "Viessmann",
+    "code": "C5",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Pumpenkommunikation gestört",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_e4",
+    "manufacturer": "Viessmann",
+    "code": "E4",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "24-V-Versorgung gestört",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_e5",
+    "manufacturer": "Viessmann",
+    "code": "E5",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Flammensignalverstärkung gestört",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_f0",
+    "manufacturer": "Viessmann",
+    "code": "F0",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Interner Regelungsfehler",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_f1",
+    "manufacturer": "Viessmann",
+    "code": "F1",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Abgas zu heiß",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_f2",
+    "manufacturer": "Viessmann",
+    "code": "F2",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Kesseltemperaturschutz ausgelöst",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_f6",
+    "manufacturer": "Viessmann",
+    "code": "F6",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Kesselfühlerwerte differieren",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_f8",
+    "manufacturer": "Viessmann",
+    "code": "F8",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Brennstoffventil schließt zu spät",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "vie_vitotronic_ff",
+    "manufacturer": "Viessmann",
+    "code": "FF",
+    "model": "Vitodens 200 / 300 mit Vitotronic",
+    "description": "Interne Störung oder Reset-Taste blockiert",
+    "referenceUrl": "https://www.viessmann.de/de/wissen/wartung-und-reparatur/fehlercodes.html"
+  },
+  {
+    "id": "bud_h11",
+    "manufacturer": "Buderus",
+    "code": "H11",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "Warmwasserfühler gestört (nur 24K)",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_h31",
+    "manufacturer": "Buderus",
+    "code": "H31",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "Pumpenerkennung fehlt",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_0y_276",
+    "manufacturer": "Buderus",
+    "code": "0Y-276",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "Vorlauf über 95 °C",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_3a_264",
+    "manufacturer": "Buderus",
+    "code": "3A-264",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "Gebläseausfall",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_4c_224",
+    "manufacturer": "Buderus",
+    "code": "4C-224",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "Temperaturbegrenzer aktiv",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_4u_350",
+    "manufacturer": "Buderus",
+    "code": "4U-350",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "Vorlauffühler kurzgeschlossen",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_4y_351",
+    "manufacturer": "Buderus",
+    "code": "4Y-351",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "Vorlauffühler unterbrochen",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_6a_227",
+    "manufacturer": "Buderus",
+    "code": "6A-227",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "Flammenerkennung fehlt",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_6l_229",
+    "manufacturer": "Buderus",
+    "code": "6L-229",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "Ionisation im Betrieb fehlt",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_8y_232",
+    "manufacturer": "Buderus",
+    "code": "8Y-232",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "AT90 ausgelöst",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_3c_217",
+    "manufacturer": "Buderus",
+    "code": "3C-217",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "Gebläse steht",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_3l_214",
+    "manufacturer": "Buderus",
+    "code": "3L-214",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "Gebläseabschaltung während Sicherheitszeit",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_3p_216",
+    "manufacturer": "Buderus",
+    "code": "3P-216",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "Gebläsedrehzahl zu gering",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_3y_215",
+    "manufacturer": "Buderus",
+    "code": "3Y-215",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "Gebläsedrehzahl zu hoch",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_4u_222",
+    "manufacturer": "Buderus",
+    "code": "4U-222",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "Vorlaufsensor Kurzschluss",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_4y_223",
+    "manufacturer": "Buderus",
+    "code": "4Y-223",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "Vorlaufsensor Unterbrechung",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_6c_228",
+    "manufacturer": "Buderus",
+    "code": "6C-228",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "Flammensignal bei Brennerstillstand",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_6c_306",
+    "manufacturer": "Buderus",
+    "code": "6C-306",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "Flammensignal nach Gasabschaltung",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_7c_231",
+    "manufacturer": "Buderus",
+    "code": "7C-231",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "Netzunterbrechung",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_7l_261",
+    "manufacturer": "Buderus",
+    "code": "7L-261",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "Zeitfehler beim Start",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_7l_280",
+    "manufacturer": "Buderus",
+    "code": "7L-280",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "Zeitfehler beim Wiederanlauf",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_9a_235",
+    "manufacturer": "Buderus",
+    "code": "9A-235",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "KIM inkompatibel",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_9a_360",
+    "manufacturer": "Buderus",
+    "code": "9A-360",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "KIM nicht erkannt",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_9l_230",
+    "manufacturer": "Buderus",
+    "code": "9L-230",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "Gasarmatur gestört",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_9l_234",
+    "manufacturer": "Buderus",
+    "code": "9L-234",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "Gasarmatur, Leitung oder BC25 gestört",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_9l_238",
+    "manufacturer": "Buderus",
+    "code": "9L-238",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "Gasarmatur, Leitung oder BC25 gestört",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_9u_233",
+    "manufacturer": "Buderus",
+    "code": "9U-233",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "KIM gestört",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "bud_el_259",
+    "manufacturer": "Buderus",
+    "code": "EL-259",
+    "model": "Logamax plus GB172-14/20/24/24K (6720647778, 2012/06)",
+    "description": "KIM oder BC25 gestört",
+    "referenceUrl": "https://www.vilcaso.de/content/pdf/buderus/installationsanleitung-buderus-logamax_plus-gb172.pdf"
+  },
+  {
+    "id": "jun_a5",
+    "manufacturer": "Bosch / Junkers",
+    "code": "A5",
+    "model": "Cerapur ZSBR/ZWBR A (6720610206, 00.04)",
+    "description": "Warmhaltefühler elektrisch gestört (ZWBR)",
+    "referenceUrl": "https://junkers-de-de.boschhc-documents.com/download/pdf/file/6720610206.pdf#page=34"
+  },
+  {
+    "id": "jun_a7",
+    "manufacturer": "Bosch / Junkers",
+    "code": "A7",
+    "model": "Cerapur ZSBR/ZWBR A (6720610206, 00.04)",
+    "description": "Warmwasserfühler elektrisch gestört (ZWBR)",
+    "referenceUrl": "https://junkers-de-de.boschhc-documents.com/download/pdf/file/6720610206.pdf#page=34"
+  },
+  {
+    "id": "jun_a8",
+    "manufacturer": "Bosch / Junkers",
+    "code": "A8",
+    "model": "Cerapur ZSBR/ZWBR A (6720610206, 00.04)",
+    "description": "CAN-Bus zum Regler unterbrochen",
+    "referenceUrl": "https://junkers-de-de.boschhc-documents.com/download/pdf/file/6720610206.pdf#page=34"
+  },
+  {
+    "id": "jun_ac",
+    "manufacturer": "Bosch / Junkers",
+    "code": "AC",
+    "model": "Cerapur ZSBR/ZWBR A (6720610206, 00.04)",
+    "description": "Verbindung zum Einschubmodul fehlt",
+    "referenceUrl": "https://junkers-de-de.boschhc-documents.com/download/pdf/file/6720610206.pdf#page=34"
+  },
+  {
+    "id": "jun_ad",
+    "manufacturer": "Bosch / Junkers",
+    "code": "Ad",
+    "model": "Cerapur ZSBR/ZWBR A (6720610206, 00.04)",
+    "description": "Speicherfühler elektrisch gestört",
+    "referenceUrl": "https://junkers-de-de.boschhc-documents.com/download/pdf/file/6720610206.pdf#page=34"
+  },
+  {
+    "id": "jun_b1",
+    "manufacturer": "Bosch / Junkers",
+    "code": "b1",
+    "model": "Cerapur ZSBR/ZWBR A (6720610206, 00.04)",
+    "description": "Kodierstecker gestört",
+    "referenceUrl": "https://junkers-de-de.boschhc-documents.com/download/pdf/file/6720610206.pdf#page=34"
+  },
+  {
+    "id": "jun_c6",
+    "manufacturer": "Bosch / Junkers",
+    "code": "C6",
+    "model": "Cerapur ZSBR/ZWBR A (6720610206, 00.04)",
+    "description": "Gebläse ohne Funktion",
+    "referenceUrl": "https://junkers-de-de.boschhc-documents.com/download/pdf/file/6720610206.pdf#page=34"
+  },
+  {
+    "id": "jun_cc",
+    "manufacturer": "Bosch / Junkers",
+    "code": "CC",
+    "model": "Cerapur ZSBR/ZWBR A (6720610206, 00.04)",
+    "description": "Außenfühlerleitung unterbrochen",
+    "referenceUrl": "https://junkers-de-de.boschhc-documents.com/download/pdf/file/6720610206.pdf#page=34"
+  },
+  {
+    "id": "aro_f_754",
+    "manufacturer": "Vaillant",
+    "code": "F.754",
+    "model": "aroTHERM (0020217825_02)",
+    "description": "Lüftereinheit gestört",
+    "referenceUrl": "https://www.vaillant.de/documents/download/379238"
+  },
+  {
+    "id": "aro_f_755",
+    "manufacturer": "Vaillant",
+    "code": "F.755",
+    "model": "aroTHERM (0020217825_02)",
+    "description": "Umschaltventil in falscher Position",
+    "referenceUrl": "https://www.vaillant.de/documents/download/379238"
+  },
+  {
+    "id": "aro_f_774",
+    "manufacturer": "Vaillant",
+    "code": "F.774",
+    "model": "aroTHERM (0020217825_02)",
+    "description": "Lufteinlassfühler gestört",
+    "referenceUrl": "https://www.vaillant.de/documents/download/379238"
+  },
+  {
+    "id": "aro_f_1288",
+    "manufacturer": "Vaillant",
+    "code": "F.1288",
+    "model": "aroTHERM (0020217825_02)",
+    "description": "Speicherfühler SP1 gestört",
+    "referenceUrl": "https://www.vaillant.de/documents/download/379238"
+  }
+]
