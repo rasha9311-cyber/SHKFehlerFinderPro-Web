@@ -15,4 +15,4 @@ self.addEventListener("fetch",event=>{
     return response;
   }).catch(async()=>await caches.match(event.request)||await caches.match("./index.html")));
 });
-\nself.addEventListener("message",event=>{if(event.data?.type==="SKIP_WAITING")self.skipWaiting()});\n
+self.addEventListener("message",event=>{if(event.data?.type==="SKIP_WAITING")self.skipWaiting()});
